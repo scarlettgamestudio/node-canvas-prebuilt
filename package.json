@@ -1,5 +1,5 @@
 {
-  "name": "canvas-prebuilt",
+  "name": "@scarlett-game-studio/canvas-prebuilt",
   "description": "Prebuilt versions of node-canvas as a drop-in replacement",
   "version": "2.0.0-alpha.13",
   "author": "Caleb Hearon <crh0872@gmail.com>",
@@ -19,7 +19,7 @@
     "test": "echo No test needed"
   },
   "binary": {
-    "module_name": "canvas-prebuilt",
+    "module_name": "scarlett-canvas-prebuilt",
     "module_path": "canvas/build/Release",
     "host": "https://github.com/scarlettgamestudio/node-canvas-prebuilt/releases/download/",
     "remote_path": "v{version}",
