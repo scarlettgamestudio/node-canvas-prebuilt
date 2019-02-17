@@ -38,7 +38,7 @@ for ver in $NODEJS_VERSIONS; do
 
   cd node-canvas
 
-  node-gyp rebuild --target=1.8.1 --arch=x64 --dist-url=https://atom.io/download/electron || {
+  node-gyp rebuild --target=2.0.17 --arch=x64 --dist-url=https://atom.io/download/electron || {
     echo "error building in nodejs version $ver"
     exit 1;
   }
